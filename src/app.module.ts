@@ -12,7 +12,7 @@ import { UsersModule } from './users/users.module';
     TypeOrmModule.forRoot({
       type: 'postgres',
       host: 'localhost',
-      port: 1234,
+      port: 5432,
       username: 'nest_db_test',
       password: 'A^XWX4mX2y2Nbmn29ZAd^%qC34wAJ3',
       database: 'nest_db_test',
